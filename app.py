@@ -5,8 +5,7 @@ st.set_page_config(page_title="e-FarMar", page_icon="🌾", layout="wide")
 
 # Step 1: Install dependencies
 print("📦 Installing dependencies...")
-!pip install streamlit -q
-!npm install -g localtunnel > /dev/null 2>&1
+
 
 # Step 2: Create the app file
 print("📝 Creating app file...")
